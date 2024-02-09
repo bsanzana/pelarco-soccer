@@ -1,7 +1,9 @@
 import Image from "next/image";
-import Pricing from "./components/pricing";
-import Faqs from "./components/faqs";
-import Gallery from "./components/gallery";
+import Pricing from "./Components/Pricing";
+import Faqs from "./Components/Faqs";
+import Gallery from "./Components/gallery";
+
+import "./globals.css";
 
 export default function Home() {
   return (

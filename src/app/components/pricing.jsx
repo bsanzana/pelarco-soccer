@@ -1,4 +1,4 @@
-import CardPricing from "./card_price";
+import CardPricing from "./Card_price";
 
 export default function Pricing() {
   return (
