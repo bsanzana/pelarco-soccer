@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Pricing from "./components/Pricing.jsx";
-import Faqs from "./components/Faqs.jsx";
-import Gallery from "./components/Gallery.jsx";
+import Pricing from "./components/pricing.jsx";
+import Faqs from "./components/faqs.jsx";
+import Gallery from "./components/gallery.jsx";
 
 import "./globals.css";
 
