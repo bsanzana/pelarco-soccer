@@ -1,7 +1,7 @@
 export default function cardPricing(props) {
   return (
     <div className="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-4 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]">
-      <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm sm:px-8 lg:p-12">
+      <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm sm:px-8 lg:p-12 m-auto">
         <div className="text-center">
           <h2 className="text-lg font-bold text-gray-900">
             {props.title}
@@ -18,9 +18,9 @@ export default function cardPricing(props) {
             </span>
           </p>
 
-          <ul className="mt-6 space-y-2">
-            <li className="flex items-center justify-center gap-1">
-              <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-lg text-purple-600">
+          <ul className="m-auto p-2 ">
+            <li className="flex items-center justify-center p-2 m-2">
+              <span className="rounded-full bg-purple-100 px-2.5 py-0.5 text-lg text-purple-600" >
                 {props.condition}
               </span>
             </li>
