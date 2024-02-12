@@ -3,8 +3,6 @@ import Pricing from "./components/pricing.jsx";
 import Faqs from "./components/faqs.jsx";
 import Gallery from "./components/gallery.jsx";
 
-import "./globals.css";
-
 export default function Home() {
   return (
     <>
