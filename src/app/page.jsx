@@ -12,10 +12,10 @@ export default function Home() {
         <div className="bg-white/15 2xl:bg-transparent 2xl:from-white/15 2xl:to-white/15 ltr:2xl:bg-gradient-to-r rtl:2xl:bg-gradient-to-l">
           <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center justify-center">
             <div className="mx-auto max-w-xl flex justify-center items-center ">
-              <img
+              <Image
                 className="rounded-full animate-bounce h-64 w-64"
                 src="logo.png"
-              ></img>
+              />
             </div>
             <div className="rounded-lg border-4 border-green-300 shadow-2xl shadow-green-500/50 p-3 mx-auto max-w-xl text-center">
               <h1 className="text-3xl font-extrabold sm:text-5xl lg:text-4xl mb-4  text-center px-2 text-white bg-green-600 rounded">
